@@ -1,0 +1,101 @@
+/***** BASE STYLES *****/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*******other fonts code******/
+/*******'Pacifico', cursive;**********/
+
+/*****fixed heights for About, Work, and Contact section *****/
+#about {
+    height: 600px;
+}
+ 
+#work {
+    height: 600px;
+}
+ 
+#contact {
+    height: 600px;
+}
+
+/***Grid***/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***********HEADER SECTION*************/
+header {
+    height: 150px;
+    background: url(../img/hero.png) no-repeat;
+    background-size: cover;
+}
+header h1 { 
+    padding: 50px 0;
+    font-family: 'Lora', serif; 
+    font-size: 34px;
+    color: #bbc085;
+}
+nav {
+    float: right; 
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+header h2 {
+    width: 1192px;
+    clear: both;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 78px; 
+    line-height: 120px; 
+    color: #9a9b9b;
+    padding: 20px 0;
+}
+header h2 span {
+    color: black;
+}
+
+/********MAIN**********/
+/*.container {
+    text-align: center;
+}*/
+
+/*table, th, tr, td {
+    border: 2.5px solid #cccccc;
+    color: #264d73;
+    font-size: 22px;
+    line-height: 42px;
+}*/
+
+/*th, td {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+*/
+/************Responsive Design/Media*************/
+
+/******min-width:375px;******/
+@media screen and (min-width: 375px;) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
